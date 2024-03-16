@@ -1,0 +1,34 @@
+name: build
+
+on:
+  push:
+    branches: [ master ]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+  checks: write
+  id-token: write
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Use Node.js
+        uses: actions/setup-node@v2  # 设置 Node.js 环境
+        with:
+          node-version: '14'  # 使用 Node.js 14
+
+      - name: Install dependencies
+        run: npm install  # 安装项目依赖
+        working-directory: ./peace-mui
+
+      - name: Build
+        run: npm run build  # 构建 React 应用
+        working-directory: ./peace-mui
+
+      - name: Test
+        run: npm test  # 运行测试
+        working-directory: ./peace-mui

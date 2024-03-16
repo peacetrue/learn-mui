@@ -13,3 +13,12 @@ MUI 概述。
 == 1.2.0
 
 仿 MUI 官网项目 peace-mui 搭建。
+
+== 1.2.1
+
+调整 `devDependencies`。
+
+== 1.2.2
+
+添加 GitHub action。
+

@@ -1,1 +1,31 @@
-详情参考 https://peacetrue.github.io/learn-mui/[知识库^]
+= 概述
+:app-group: com.github.peacetrue.learn
+:app-name: learn-mui
+:website: https://peacetrue.github.io
+:imagesdir: docs/antora/modules/ROOT/assets/images
+
+image:https://img.shields.io/github/actions/workflow/status/peacetrue/{app-name}/main.yml?branch=master["GitHub Workflow Status",link="https://github.com/peacetrue/{app-name}/actions"]
+
+//@formatter:off
+
+== 用法（How）
+
+[source%nowrap,bash,subs="specialchars,attributes"]
+----
+git clone {website}/learn-mui
+cd peace-mui
+npm install
+npm start
+----
+
+== 维护者（Who）
+
+. peace(xiayouxue@hotmail.com)
+
+== 活动（When）
+
+初始提交于 2024-03-16，最近提交于 {docdate}。
+
+== 许可证（License）
+
+https://github.com/peacetrue/{app-name}/blob/master/LICENSE[Apache License 2.0^]
