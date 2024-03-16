@@ -1,0 +1,24 @@
+= 概述
+
+include::partial$shields.adoc[]
+//@formatter:off
+
+== 简介（What）
+
+{website}/{app-name}/[{app-name}]
+
+== 背景（Why）
+
+== 用法（How）
+
+== 参与者（Who）
+
+. peace(xiayouxue@hotmail.com)
+
+== 活动（When）
+
+初始提交于 {docdate}，最近提交于 {docdate}。
+
+== 许可证（License）
+
+https://github.com/peacetrue/{app-name}/blob/master/LICENSE[Apache License 2.0^]
